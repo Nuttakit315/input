@@ -54,25 +54,25 @@ export default new Vuex.Store({
       image:"https://backend.central.co.th/media/catalog/product/C/D/CDS13157616.jpg?impolicy=resize&width=553"
   },
   i9:{
-      name:"MIDORI ทวินไซส์ ลายดอก1",
+      name:"MIDORI ทวินไซส์ ลายดอกA",
       price:"790",
       amount:0,
       image:"https://backend.central.co.th/media/catalog/product/C/D/CDS12684090.jpg?impolicy=resize&width=553"
   },
   i10:{
-    name:"MIDORI ทวินไซส์ ลายดอก2",
+    name:"MIDORI ทวินไซส์ ลายดอกB",
     price:"790",
     amount:0,
     image:"https://backend.central.co.th/media/catalog/product/C/D/CDS13157692.jpg?impolicy=resize&width=553"
   },
   i11:{
-    name:"MIDORI ทวินไซส์ ลายพิมพ์1",
+    name:"MIDORI ทวินไซส์ ลายพิมพ์A",
     price:"1990",
     amount:0,
     image:"https://backend.central.co.th/media/catalog/product/C/D/CDS12684168.jpg?impolicy=resize&width=553"
   },
   i12:{
-    name:"MIDORI ทวินไซส์ ลายพิมพ์2",
+    name:"MIDORI ทวินไซส์ ลายพิมพ์B",
     price:"1990",
     amount:0,
     image:"https://backend.central.co.th/media/catalog/product/C/D/CDS13157760.jpg?impolicy=resize&width=553"
