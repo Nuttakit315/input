@@ -98,6 +98,6 @@
     <div class="d-grid gap-2 col-6 mx-auto">
     <button class="btn btn-success" v-on:click="$store.state.say('สั่งซื้อสำเร็จ')" onClick="javascript:location.reload();">ยืนยันการสั่งซื้อ</button>
     <button to="/" class="btn btn-danger" v-on:click="$store.state.say('ยกเลิกสำเร็จ')" onClick="javascript:location.reload();">ยกเลิกการสั่งซื้อ</button>
-    </div>
+  </div>
   </div>
 </template>

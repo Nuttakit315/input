@@ -1,49 +1,49 @@
 <template>
   <div class="register">
-    <b-container>
-      <b-card bg-variant="dark" class="text-center" text-variant="white" title="Register">
-        <b-form @submit="onSubmit" v-if="show">
-          <b-row>
-            <b-col cols="6">
-              <b-form-group label="Email address" label-for="input-1">
-                <b-form-input v-model="email" type="email" placeholder="Enter email" required></b-form-input>
-              </b-form-group>
-            </b-col>
-            <b-col class="6">
-              <b-form-group label="Password" label-for="input-1">
-                <b-form-input v-model="pass" type="password" placeholder="Enter password" required></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col class="6">
-              <b-form-group id="input-group-2" label="Name" label-for="input-2">
-                <b-form-input v-model="name" placeholder="Enter name" required></b-form-input>
-              </b-form-group>
-            </b-col>
-            <b-col class="6">
-              <b-form-group label="Surname" label-for="input-2">
-                <b-form-input v-model="surname" placeholder="Enter surname" required></b-form-input>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col class="3">
-              <b-form-group label="Phone" label-for="input-3">
-                <b-form-input v-model="phone" placeholder="Enter phone number" type="tel" required></b-form-input>
-              </b-form-group>
-            </b-col>
-            <b-col class="3">
-              <b-form-group label="Gender" label-for="input-3">
-                <select class="form-control" v-model="gender" ><option>Male</option><option>Female</option><option>Other</option></select>
-              </b-form-group>
-            </b-col>
-          </b-row>
-          <br>
-          <b-button variant="success" @click="addData()" v-on:click="$store.state.say('สมัครสำเร็จ ระบบได้ทำการเก็บข้อมูลของท่านแล้ว')" onClick="javascript:location.reload();"> Submit </b-button>
-        </b-form>
-      </b-card>
-    </b-container>
+  <b-container>
+  <b-card bg-variant="dark" class="text-center" text-variant="white" title="Register">
+  <b-form @submit="onSubmit" v-if="show">
+  <b-row>
+  <b-col cols="6">
+  <b-form-group label="Email address" label-for="input-1">
+  <b-form-input v-model="email" type="email" placeholder="Enter email" required></b-form-input>
+  </b-form-group>
+  </b-col>
+  <b-col class="6">
+  <b-form-group label="Password" label-for="input-1">
+  <b-form-input v-model="pass" type="password" placeholder="Enter password" required></b-form-input>
+  </b-form-group>
+  </b-col>
+  </b-row>
+  <b-row>
+  <b-col class="6">
+  <b-form-group id="input-group-2" label="Name" label-for="input-2">
+  <b-form-input v-model="name" placeholder="Enter name" required></b-form-input>
+  </b-form-group>
+  </b-col>
+  <b-col class="6">
+  <b-form-group label="Surname" label-for="input-2">
+  <b-form-input v-model="surname" placeholder="Enter surname" required></b-form-input>
+  </b-form-group>
+  </b-col>
+  </b-row>
+  <b-row>
+  <b-col class="3">
+  <b-form-group label="Phone" label-for="input-3">
+  <b-form-input v-model="phone" placeholder="Enter phone number" type="tel" required></b-form-input>
+  </b-form-group>
+  </b-col>
+  <b-col class="3">
+  <b-form-group label="Gender" label-for="input-3">
+  <select class="form-control" v-model="gender" ><option>Male</option><option>Female</option><option>Other</option></select>
+  </b-form-group>
+  </b-col>
+  </b-row>
+  <br>
+  <b-button variant="success" @click="addData()" v-on:click="$store.state.say('สมัครสำเร็จ ระบบได้ทำการเก็บข้อมูลของท่านแล้ว')" onClick="javascript:location.reload();"> Submit </b-button>
+  </b-form>
+  </b-card>
+  </b-container>
   </div>
 </template>
 
