@@ -6,31 +6,31 @@
   <b-row>
   <b-col cols="6">
   <b-form-group label="Email address">
-  <b-form-input v-model="email" type="email" placeholder="Enter email" required></b-form-input>
+  <b-form-input v-model="email" type="email" placeholder="Enter email"></b-form-input>
   </b-form-group>
   </b-col>
   <b-col class="6">
   <b-form-group label="Password">
-  <b-form-input v-model="pass" type="password" placeholder="Enter password" required></b-form-input>
+  <b-form-input v-model="pass" type="password" placeholder="Enter password"></b-form-input>
   </b-form-group>
   </b-col>
   </b-row>
   <b-row>
   <b-col class="6">
   <b-form-group label="Name">
-  <b-form-input v-model="name" placeholder="Enter name" required></b-form-input>
+  <b-form-input v-model="name" placeholder="Enter name"></b-form-input>
   </b-form-group>
   </b-col>
   <b-col class="6">
   <b-form-group label="Surname">
-  <b-form-input v-model="surname" placeholder="Enter surname" required></b-form-input>
+  <b-form-input v-model="surname" placeholder="Enter surname"></b-form-input>
   </b-form-group>
   </b-col>
   </b-row>
   <b-row>
   <b-col class="3">
   <b-form-group label="Phone">
-  <b-form-input v-model="phone" placeholder="Enter phone number" type="tel" required></b-form-input>
+  <b-form-input v-model="phone" placeholder="Enter phone number" type="tel"></b-form-input>
   </b-form-group>
   </b-col>
   <b-col class="3">
